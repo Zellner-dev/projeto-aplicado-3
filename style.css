@@ -1,0 +1,124 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins";
+}
+header {
+    height: 80px;
+    background-color: #434977;
+    padding: 0px 160px;
+    display: flex   ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+header #circle-user {
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 8px;
+}
+header #menu {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+main {
+    margin-top: 16px;
+    padding: 0px 160px;
+}
+
+main #item-list .item {
+    background-color: #434977;
+    height: 56px;
+    color: white;
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 8px;
+    margin: 8px 0px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+main #item-list .item #title {
+    font-weight: bold;
+    font-size: 20px;
+}
+main #item-info {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    background-color: #434977;
+}
+main #item-info p {
+    font-size: 25px;
+}
+main #cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+main #cabecalho .opcoes {
+    display: flex;
+    flex-direction: row;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#green-button {
+    background-color: #19A927;
+    display: flex;
+    align-items: center;
+    padding: 4px 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    color: white;
+}
+#red-button {
+    background-color: #C9313A;
+    display: flex;
+    align-items: center;
+    padding: 4px 24px;
+    font-weight: bold;
+    border-radius: 8px;
+    color: white;
+}
+input, select {
+    width: 40%;
+    height: 32px;
+    border: solid 2px #434977;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 0px 8px;
+}
+select {
+    height: 40px;
+    box-sizing: border-box;
+}
+header #optionsBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header #optionsBar #logo {
+    margin-right: 16px;
+}
+header #optionsBar .options {
+    height: 80px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+header #optionsBar .selected, header #optionsBar .options:hover{
+    background-color: #1f1a7a;
+    font-weight: bold;
+}
